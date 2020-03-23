@@ -1,4 +1,19 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
+languageCode = "pt-br"
 title = "Devlog"
 theme = "ananke"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "pt"
+SectionPagesMenu = "main"
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  background_color_class = "bg-black"
+  recent_posts_number = 2
