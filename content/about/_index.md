@@ -1,7 +1,5 @@
 ---
-title: "Sobre"
-descrição: "DESCRIÇÃO"
-imagem em destaque: ''
+title: "Quem somos"
+featured_image: '/images/quem-somos.jpg'
+description: ""
 ---
-
-SOBRE NÓS

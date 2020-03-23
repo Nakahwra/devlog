@@ -1,5 +1,5 @@
 ---
-title: Quem somos
+title: Projetos pessoais
 featured_image: ""
 omit_header_text: true
 description: ''
