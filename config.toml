@@ -6,6 +6,7 @@ theme = "ananke"
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "pt"
 SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
 
@@ -15,5 +16,7 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 [params]
+  custom_css = ["css/css.css"]
   background_color_class = "bg-black"
   recent_posts_number = 2
+  filename = "sitemap.xml"

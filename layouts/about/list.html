@@ -1,0 +1,33 @@
+{{ define "main" }}
+  <article class="pa3 pa4-ns nested-copy-line-height nested-img">
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray about">
+        
+        <div class="author">
+            <div class="author-img" style="background-image: url(/images/lucas.png);"></div>
+            <div class="author-info">
+                <span class="author-name">Lucas Nakahara</span>
+                <p class="author-text">
+                    Estudante do segundo ano de Engenharia de Software interessado por desenvolvimento web e suas tecnologias como: Bootstrap, React.js, Node.js etc.
+                </p>
+            </div>
+        </div>
+        <div class="author gabriel">
+            <div class="author-img" style="background-image: url(/images/gabriel.jpg);"></div>
+            <div class="author-info">
+                <span class="author-name">Gabriel Rodrigues</span>
+                <p class="author-text">
+                    Cursando Engenharia de Software (UNIFIL - Londrina). Sou interessado por tecnologias/inovações, criativo e tenho interesse pela automação do atendimento ao cliente.                </p>
+            </div>
+        </div>
+
+    </section>
+    <section class="flex-ns flex-wrap justify-around mt5">
+      {{ range .Paginator.Pages }}
+        <div class="relative w-100 w-30-l mb4 bg-white">
+          {{- partial "summary.html" . -}}
+        </div>
+      {{ end }}
+    </section>
+    {{- template "_internal/pagination.html" . -}}
+  </article>
+{{ end }}
