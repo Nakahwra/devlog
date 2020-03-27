@@ -18,5 +18,5 @@ enableRobotsTXT = true
 [params]
   custom_css = ["css/css.css"]
   background_color_class = "bg-black"
-  recent_posts_number = 2
+  recent_posts_number = 4
   filename = "sitemap.xml"
