@@ -1,7 +1,7 @@
 ---
-title: "Título - tech stack 2"
-featured_image: '/images/tech-stack.jpg'
-date: 2020-03-20
+title: "Título - Projetos Pessoais 2"
+featured_image: '/images/projetos-pessoais.jpg'
+date: 2020-03-23
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 ---
 
