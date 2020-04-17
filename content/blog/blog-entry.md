@@ -2,11 +2,10 @@
 date: 2020-03-23
 description: "Postagem relacionada com a criação do portfólio/blog."
 featured_image: "/images/post.jpg"
-title: "Blog entry"
+title: "Desenvolvimento do Projeto"
 ---
 
 ---
-## DESENVOLVIMENTO DO PROJETO
 
 #### 1 - INSTALAÇÃO DA FERRAMENTA E ESTRUTURA BASE DO PROJETO
 

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projetos Pessoais on Devlog</title>
+    <link>http://example.org/projetos_pessoais/</link>
+    <description>Recent content in Projetos Pessoais on Devlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Mon, 23 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/projetos_pessoais/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Título - Projetos Pessoais 1</title>
+      <link>http://example.org/projetos_pessoais/projetos-pessoais-1/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projetos_pessoais/projetos-pessoais-1/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna nunc id cursus metus aliquam. Accumsan tortor posuere ac ut consequat semper. Pellentesque dignissim enim sit amet venenatis urna. Odio ut sem nulla pharetra diam sit.
+Subtitulo 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh sit amet commodo nulla.</description>
+    </item>
+    
+    <item>
+      <title>Título - Projetos Pessoais 2</title>
+      <link>http://example.org/projetos_pessoais/projetos-pessoais-2/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projetos_pessoais/projetos-pessoais-2/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna nunc id cursus metus aliquam. Accumsan tortor posuere ac ut consequat semper. Pellentesque dignissim enim sit amet venenatis urna. Odio ut sem nulla pharetra diam sit.
+Subtitulo 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh sit amet commodo nulla.</description>
+    </item>
+    
+  </channel>
+</rss>
