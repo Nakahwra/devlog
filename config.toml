@@ -1,4 +1,4 @@
-baseURL = "http://devlog-pi.s3-website-sa-east-1.amazonaws.com/"
+baseURL = "https://master.d2ztll0hew0wpg.amplifyapp.com/"
 languageCode = "pt-br"
 title = "Devlog"
 theme = "ananke"
