@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://devlog-pi.s3-website-sa-east-1.amazonaws.com/"
 languageCode = "pt-br"
 title = "Devlog"
 theme = "ananke"
