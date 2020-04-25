@@ -4,7 +4,35 @@
   
   <url>
     <loc>http://18.230.111.203/blog/</loc>
-    <lastmod>2020-03-23T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://18.230.111.203/blog/blog-entry2/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://18.230.111.203/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://18.230.111.203/tech_stack/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://18.230.111.203/tech_stack/tech_stack/</loc>
+    <lastmod>2020-04-25T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -17,28 +45,7 @@
   </url>
   
   <url>
-    <loc>http://18.230.111.203/</loc>
-    <lastmod>2020-03-23T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://18.230.111.203/projetos_pessoais/</loc>
-    <lastmod>2020-03-23T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://18.230.111.203/tech_stack/</loc>
-    <lastmod>2020-03-23T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://18.230.111.203/tech_stack/tech_stack/</loc>
     <lastmod>2020-03-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

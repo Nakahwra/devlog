@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Devlog  | Tech Stack</title>
+    <title>Devlog  | Criando um servidor na nuvem</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="generator" content="Hugo 0.67.0" />
     
@@ -27,23 +27,23 @@
 
     
     
-    <meta property="og:title" content="Tech Stack" />
-<meta property="og:description" content="Tecnologias utilizadas no projeto." />
+    <meta property="og:title" content="Criando um servidor na nuvem" />
+<meta property="og:description" content="Postagem relacionada com a configuração do servidor na nuvem." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://18.230.111.203/tech_stack/tech_stack/" />
+<meta property="og:url" content="http://18.230.111.203/blog/blog-entry2/" />
 <meta property="article:published_time" content="2020-04-25T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-04-25T00:00:00+00:00" />
-<meta itemprop="name" content="Tech Stack">
-<meta itemprop="description" content="Tecnologias utilizadas no projeto.">
+<meta itemprop="name" content="Criando um servidor na nuvem">
+<meta itemprop="description" content="Postagem relacionada com a configuração do servidor na nuvem.">
 <meta itemprop="datePublished" content="2020-04-25T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-04-25T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="37">
+<meta itemprop="wordCount" content="134">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tech Stack"/>
-<meta name="twitter:description" content="Tecnologias utilizadas no projeto."/>
+<meta name="twitter:title" content="Criando um servidor na nuvem"/>
+<meta name="twitter:description" content="Postagem relacionada com a configuração do servidor na nuvem."/>
 
   </head>
 
@@ -55,7 +55,7 @@
 
   
   
-  <header class="cover bg-top" style="background-image: url('http://18.230.111.203/images/tech-stack-post.jpeg');">
+  <header class="cover bg-top" style="background-image: url('http://18.230.111.203/images/nuvem.jpg');">
     <div class="pb3-m pb6-l bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
@@ -115,10 +115,10 @@
 
       <div class="tc-l pv6 ph3 ph4-ns">
         
-          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Tech Stack</h1>
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Criando um servidor na nuvem</h1>
           
             <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
-              Tecnologias utilizadas no projeto.
+              Postagem relacionada com a configuração do servidor na nuvem.
             </h2>
           
         
@@ -136,7 +136,7 @@
       <aside class="instapaper_ignoref b helvetica tracked">
           
       </aside>
-      <h1 class="f1 athelas mt3 mb1">Tech Stack</h1>
+      <h1 class="f1 athelas mt3 mb1">Criando um servidor na nuvem</h1>
       
       
       <time class="f6 mv4 dib tracked" datetime="2020-04-25T00:00:00Z">April 25, 2020</time>
@@ -145,23 +145,18 @@
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><hr>
-<h3 id="tecnologias-utilizadas-para-a-criação-do-portfólioblog">TECNOLOGIAS UTILIZADAS PARA A CRIAÇÃO DO PORTFÓLIO/BLOG</h3>
-<h3 id="frontend">Frontend:</h3>
-<ul>
-<li>HTML/CSS;</li>
-<li>Markdown;</li>
-<li>JavaScript.</li>
-</ul>
-<h3 id="backend">Backend:</h3>
-<ul>
-<li>GoLang (Hugo Static Generator).</li>
-</ul>
+<h4 id="1---configurando-servidor-na-nuvem">1 - CONFIGURANDO SERVIDOR NA NUVEM</h4>
+<p>Para a segunda entrega do Projeto Interdisciplinar, deveríamos configurar um servidor na nuvem para fazermos o upload do blog e torná-lo acessível pela internet.</p>
+<p>Decidimos utilizar a plataforma EC2 da Amazon Web Services onde podemos alugar computadores virtuais para rodarmos a nossa aplicação.</p>
 <hr>
-<h3 id="tecnologias-utilizadas-para-a-configuração-do-servidor-na-nuvem">TECNOLOGIAS UTILIZADAS PARA A CONFIGURAÇÃO DO SERVIDOR NA NUVEM</h3>
-<ul>
-<li>Host AWS EC2 com sistema operacional Ubuntu Server 18.04 LTS;</li>
-<li>Apache 2.</li>
-</ul>
+<h4 id="2---criando-e-configurando-instância-do-servidor">2 - CRIANDO E CONFIGURANDO INSTÂNCIA DO SERVIDOR</h4>
+<p>Através da plataforma do EC2 conseguimos criar uma instância de servidor. Para o sistema operacional que rodará nele, escolhemos o Ubuntu 18.04 por recomendação do professor Ricardo.</p>
+<p><img src="/images/instancia.png" alt=""></p>
+<p>Abrimos também uma porta do tipo HTTP 80/TCP, além da SSH 22/TCP padrão, para que pudessemos acessar o servidor pela internet e deixamos os resto das configurações como padrão.</p>
+<p><img src="/images/instancia2.png" alt=""></p>
+<p>Feito isto, prosseguiremos para o launch da instância e baixaremos a chave privada que usaremos pra acessar o servidor por SSH.</p>
+<p><img src="/images/instancia3.png" alt=""></p>
+<hr>
 <ul class="pa0">
   
 </ul>

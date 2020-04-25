@@ -6,7 +6,7 @@
     <description>Recent content in Tech Stack on Devlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Mon, 23 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://18.230.111.203/tech_stack/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,10 @@
     <item>
       <title>Tech Stack</title>
       <link>http://18.230.111.203/tech_stack/tech_stack/</link>
-      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>http://18.230.111.203/tech_stack/tech_stack/</guid>
-      <description> TECNOLOGIAS UTILIZADAS PARA A CRIAÇÃO DO PORTFÓLIO/BLOG Frontend:  HTML/CSS Markdown JavaScript  Backend:  GoLang (Hugo Static Generator)  </description>
+      <description> TECNOLOGIAS UTILIZADAS PARA A CRIAÇÃO DO PORTFÓLIO/BLOG Frontend:  HTML/CSS; Markdown; JavaScript.  Backend:  GoLang (Hugo Static Generator).   TECNOLOGIAS UTILIZADAS PARA A CONFIGURAÇÃO DO SERVIDOR NA NUVEM  Host AWS EC2 com sistema operacional Ubuntu Server 18.04 LTS; Apache 2.  </description>
     </item>
     
   </channel>

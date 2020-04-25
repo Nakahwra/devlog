@@ -6,10 +6,30 @@
     <description>Recent content on Devlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Mon, 23 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://18.230.111.203/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Criando um servidor na nuvem</title>
+      <link>http://18.230.111.203/blog/blog-entry2/</link>
+      <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://18.230.111.203/blog/blog-entry2/</guid>
+      <description>1 - CONFIGURANDO SERVIDOR NA NUVEM Para a segunda entrega do Projeto Interdisciplinar, deveríamos configurar um servidor na nuvem para fazermos o upload do blog e torná-lo acessível pela internet.
+Decidimos utilizar a plataforma EC2 da Amazon Web Services onde podemos alugar computadores virtuais para rodarmos a nossa aplicação.
+ 2 - CRIANDO E CONFIGURANDO INSTÂNCIA DO SERVIDOR Através da plataforma do EC2 conseguimos criar uma instância de servidor. Para o sistema operacional que rodará nele, escolhemos o Ubuntu 18.</description>
+    </item>
+    
+    <item>
+      <title>Tech Stack</title>
+      <link>http://18.230.111.203/tech_stack/tech_stack/</link>
+      <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://18.230.111.203/tech_stack/tech_stack/</guid>
+      <description> TECNOLOGIAS UTILIZADAS PARA A CRIAÇÃO DO PORTFÓLIO/BLOG Frontend:  HTML/CSS; Markdown; JavaScript.  Backend:  GoLang (Hugo Static Generator).   TECNOLOGIAS UTILIZADAS PARA A CONFIGURAÇÃO DO SERVIDOR NA NUVEM  Host AWS EC2 com sistema operacional Ubuntu Server 18.04 LTS; Apache 2.  </description>
+    </item>
     
     <item>
       <title>Desenvolvimento do Projeto</title>
@@ -19,15 +39,6 @@
       <guid>http://18.230.111.203/blog/blog-entry/</guid>
       <description>1 - INSTALAÇÃO DA FERRAMENTA E ESTRUTURA BASE DO PROJETO Primeiro, instalamos a ferramenta de desenvolvimento que iríamos usar, um static generator chamado Hugo. Seguindo a documentação, conseguimos montar uma base e inicializar o projeto sem muitos problemas. É uma ferramenta relativamente simples e de fácil manuseio.
 Junto com a instalação da ferramenta, adicionamos também ao projeto um tema pronto chamado Ananke que será o layout base do website. A adição de temas prontos agiliza a construção dos sites e permite uma personalização básica do projeto por parte dos desenvolvedores.</description>
-    </item>
-    
-    <item>
-      <title>Tech Stack</title>
-      <link>http://18.230.111.203/tech_stack/tech_stack/</link>
-      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://18.230.111.203/tech_stack/tech_stack/</guid>
-      <description> TECNOLOGIAS UTILIZADAS PARA A CRIAÇÃO DO PORTFÓLIO/BLOG Frontend:  HTML/CSS Markdown JavaScript  Backend:  GoLang (Hugo Static Generator)  </description>
     </item>
     
     <item>
