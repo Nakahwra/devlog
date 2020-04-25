@@ -3,75 +3,75 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://master.d2ztll0hew0wpg.amplifyapp.com/blog/</loc>
+    <loc>http://devlog-pi.s3-website-sa-east-1.amazonaws.com/blog/</loc>
     <lastmod>2020-03-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://master.d2ztll0hew0wpg.amplifyapp.com/blog/blog-entry/</loc>
+    <loc>http://devlog-pi.s3-website-sa-east-1.amazonaws.com/blog/blog-entry/</loc>
     <lastmod>2020-03-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://master.d2ztll0hew0wpg.amplifyapp.com/</loc>
+    <loc>http://devlog-pi.s3-website-sa-east-1.amazonaws.com/</loc>
     <lastmod>2020-03-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://master.d2ztll0hew0wpg.amplifyapp.com/projetos_pessoais/</loc>
+    <loc>http://devlog-pi.s3-website-sa-east-1.amazonaws.com/projetos_pessoais/</loc>
     <lastmod>2020-03-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://master.d2ztll0hew0wpg.amplifyapp.com/tech_stack/</loc>
+    <loc>http://devlog-pi.s3-website-sa-east-1.amazonaws.com/tech_stack/</loc>
     <lastmod>2020-03-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://master.d2ztll0hew0wpg.amplifyapp.com/tech_stack/tech_stack/</loc>
+    <loc>http://devlog-pi.s3-website-sa-east-1.amazonaws.com/tech_stack/tech_stack/</loc>
     <lastmod>2020-03-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://master.d2ztll0hew0wpg.amplifyapp.com/projetos_pessoais/projetos-pessoais-1/</loc>
+    <loc>http://devlog-pi.s3-website-sa-east-1.amazonaws.com/projetos_pessoais/projetos-pessoais-1/</loc>
     <lastmod>2020-03-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://master.d2ztll0hew0wpg.amplifyapp.com/projetos_pessoais/projetos-pessoais-2/</loc>
+    <loc>http://devlog-pi.s3-website-sa-east-1.amazonaws.com/projetos_pessoais/projetos-pessoais-2/</loc>
     <lastmod>2020-03-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://master.d2ztll0hew0wpg.amplifyapp.com/categories/</loc>
+    <loc>http://devlog-pi.s3-website-sa-east-1.amazonaws.com/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://master.d2ztll0hew0wpg.amplifyapp.com/about/</loc>
+    <loc>http://devlog-pi.s3-website-sa-east-1.amazonaws.com/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://master.d2ztll0hew0wpg.amplifyapp.com/tags/</loc>
+    <loc>http://devlog-pi.s3-website-sa-east-1.amazonaws.com/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
