@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devlog</title>
-    <link>http://devlog-pi.s3-website-sa-east-1.amazonaws.com/</link>
+    <link>http://18.230.111.203/</link>
     <description>Recent content on Devlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Mon, 23 Mar 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://devlog-pi.s3-website-sa-east-1.amazonaws.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://18.230.111.203/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Desenvolvimento do Projeto</title>
-      <link>http://devlog-pi.s3-website-sa-east-1.amazonaws.com/blog/blog-entry/</link>
+      <link>http://18.230.111.203/blog/blog-entry/</link>
       <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://devlog-pi.s3-website-sa-east-1.amazonaws.com/blog/blog-entry/</guid>
+      <guid>http://18.230.111.203/blog/blog-entry/</guid>
       <description>1 - INSTALAÇÃO DA FERRAMENTA E ESTRUTURA BASE DO PROJETO Primeiro, instalamos a ferramenta de desenvolvimento que iríamos usar, um static generator chamado Hugo. Seguindo a documentação, conseguimos montar uma base e inicializar o projeto sem muitos problemas. É uma ferramenta relativamente simples e de fácil manuseio.
 Junto com a instalação da ferramenta, adicionamos também ao projeto um tema pronto chamado Ananke que será o layout base do website. A adição de temas prontos agiliza a construção dos sites e permite uma personalização básica do projeto por parte dos desenvolvedores.</description>
     </item>
     
     <item>
       <title>Tech Stack</title>
-      <link>http://devlog-pi.s3-website-sa-east-1.amazonaws.com/tech_stack/tech_stack/</link>
+      <link>http://18.230.111.203/tech_stack/tech_stack/</link>
       <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://devlog-pi.s3-website-sa-east-1.amazonaws.com/tech_stack/tech_stack/</guid>
+      <guid>http://18.230.111.203/tech_stack/tech_stack/</guid>
       <description> TECNOLOGIAS UTILIZADAS PARA A CRIAÇÃO DO PORTFÓLIO/BLOG Frontend:  HTML/CSS Markdown JavaScript  Backend:  GoLang (Hugo Static Generator)  </description>
     </item>
     
     <item>
       <title>Título - Projetos Pessoais 1</title>
-      <link>http://devlog-pi.s3-website-sa-east-1.amazonaws.com/projetos_pessoais/projetos-pessoais-1/</link>
+      <link>http://18.230.111.203/projetos_pessoais/projetos-pessoais-1/</link>
       <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://devlog-pi.s3-website-sa-east-1.amazonaws.com/projetos_pessoais/projetos-pessoais-1/</guid>
+      <guid>http://18.230.111.203/projetos_pessoais/projetos-pessoais-1/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna nunc id cursus metus aliquam. Accumsan tortor posuere ac ut consequat semper. Pellentesque dignissim enim sit amet venenatis urna. Odio ut sem nulla pharetra diam sit.
 Subtitulo 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh sit amet commodo nulla.</description>
     </item>
     
     <item>
       <title>Título - Projetos Pessoais 2</title>
-      <link>http://devlog-pi.s3-website-sa-east-1.amazonaws.com/projetos_pessoais/projetos-pessoais-2/</link>
+      <link>http://18.230.111.203/projetos_pessoais/projetos-pessoais-2/</link>
       <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://devlog-pi.s3-website-sa-east-1.amazonaws.com/projetos_pessoais/projetos-pessoais-2/</guid>
+      <guid>http://18.230.111.203/projetos_pessoais/projetos-pessoais-2/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna nunc id cursus metus aliquam. Accumsan tortor posuere ac ut consequat semper. Pellentesque dignissim enim sit amet venenatis urna. Odio ut sem nulla pharetra diam sit.
 Subtitulo 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh sit amet commodo nulla.</description>
     </item>
