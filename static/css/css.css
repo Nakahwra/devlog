@@ -1,0 +1,42 @@
+.pb7 {
+    padding: 0;
+}
+
+.about {
+    max-width: 100%;
+    width: 75%;
+}
+
+.about > .author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about > .author > .author-img {
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+.about > .author > .author-info {
+    text-align: left !important;
+    font-size: 17px;
+    margin-left: 70px;
+    max-width: 50%;
+}
+
+.about > .author > .author-info > .author-name {
+    font-weight: bold;
+    font-size: 45px;
+    display: block;
+}
+
+.about > .author > .author-info > .author-text {
+    text-align: justify;
+}
+
+.gabriel {
+    margin-top: 50px;
+}
