@@ -6,7 +6,7 @@
     <description>Recent content in Blog on Devlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sat, 25 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://18.230.111.203/blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Criando um servidor na nuvem</title>
       <link>http://18.230.111.203/blog/blog-entry2/</link>
-      <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>http://18.230.111.203/blog/blog-entry2/</guid>
       <description>1 - CONFIGURANDO SERVIDOR NA NUVEM Para a segunda entrega do Projeto Interdisciplinar, deveríamos configurar um servidor na nuvem para fazermos o upload do blog e torná-lo acessível pela internet.

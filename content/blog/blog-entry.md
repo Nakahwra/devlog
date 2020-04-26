@@ -6,12 +6,11 @@ title: "Desenvolvimento do Projeto"
 ---
 
 ---
-
 #### 1 - INSTALAÇÃO DA FERRAMENTA E ESTRUTURA BASE DO PROJETO
 
-Primeiro, instalamos a ferramenta de desenvolvimento que iríamos usar, um static generator chamado Hugo. Seguindo a documentação, conseguimos montar uma base e inicializar o projeto sem muitos problemas. É uma ferramenta relativamente simples e de fácil manuseio.
+Primeiro, instalamos a ferramenta de desenvolvimento que iríamos usar, um static generator chamado [Hugo](https://gohugo.io/). Seguindo a documentação, conseguimos montar uma base e inicializar o projeto sem muitos problemas. É uma ferramenta relativamente simples e de fácil manuseio.
 
-Junto com a instalação da ferramenta, adicionamos também ao projeto um tema pronto chamado Ananke que será o layout base do website. A adição de temas prontos agiliza a construção dos sites e permite uma personalização básica do projeto por parte dos desenvolvedores.
+Junto com a instalação da ferramenta, adicionamos também ao projeto um tema pronto chamado [Ananke](https://themes.gohugo.io/gohugo-theme-ananke/) que será o layout base do website. A adição de temas prontos agiliza a construção dos sites e permite uma personalização básica do projeto por parte dos desenvolvedores.
 
 Feito isso, temos a base do nosso projeto criado assim:
 

@@ -1,5 +1,5 @@
 ---
-date: 2020-04-25
+date: 2020-04-26
 description: "Tecnologias utilizadas no projeto."
 featured_image: "/images/tech-stack-post.jpeg"
 title: "Tech Stack"
@@ -19,5 +19,5 @@ title: "Tech Stack"
 ---
 ### TECNOLOGIAS UTILIZADAS PARA A CONFIGURAÇÃO DO SERVIDOR NA NUVEM
 
-- Host AWS EC2 com sistema operacional Ubuntu Server 18.04 LTS;
+- Host AWS EC2 com sistema operacional Ubuntu 18.04;
 - Apache 2.
