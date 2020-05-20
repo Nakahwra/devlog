@@ -3,67 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://18.228.43.70/blog/</loc>
+    <loc>http://www.devlog.host/blog/</loc>
     <lastmod>2020-04-26T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://18.228.43.70/blog/blog-entry2/</loc>
+    <loc>http://www.devlog.host/blog/blog-entry2/</loc>
     <lastmod>2020-04-26T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://18.228.43.70/</loc>
+    <loc>http://www.devlog.host/</loc>
     <lastmod>2020-04-26T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://18.228.43.70/tech_stack/</loc>
+    <loc>http://www.devlog.host/tech_stack/</loc>
     <lastmod>2020-04-26T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://18.228.43.70/tech_stack/tech_stack/</loc>
+    <loc>http://www.devlog.host/tech_stack/tech_stack/</loc>
     <lastmod>2020-04-26T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://18.228.43.70/blog/blog-entry/</loc>
+    <loc>http://www.devlog.host/blog/blog-entry/</loc>
     <lastmod>2020-03-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://18.228.43.70/categories/</loc>
+    <loc>http://www.devlog.host/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://18.228.43.70/projetos_pessoais/</loc>
+    <loc>http://www.devlog.host/projetos_pessoais/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://18.228.43.70/about/</loc>
+    <loc>http://www.devlog.host/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://18.228.43.70/tags/</loc>
+    <loc>http://www.devlog.host/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

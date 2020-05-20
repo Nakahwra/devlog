@@ -1,4 +1,4 @@
-baseURL = "http://18.228.43.70/"
+baseURL = "http://www.devlog.host/"
 languageCode = "pt-br"
 title = "Devlog"
 theme = "ananke"
@@ -9,7 +9,7 @@ SectionPagesMenu = "main"
 Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
-disqusShortname = "Comentários"
+disqusShortname = "devlog.host"
 
 [sitemap]
   changefreq = "monthly"

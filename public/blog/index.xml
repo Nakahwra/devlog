@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Devlog</title>
-    <link>http://18.228.43.70/blog/</link>
+    <link>http://www.devlog.host/blog/</link>
     <description>Recent content in Blog on Devlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://18.228.43.70/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.devlog.host/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Criando um servidor na nuvem</title>
-      <link>http://18.228.43.70/blog/blog-entry2/</link>
+      <link>http://www.devlog.host/blog/blog-entry2/</link>
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://18.228.43.70/blog/blog-entry2/</guid>
+      <guid>http://www.devlog.host/blog/blog-entry2/</guid>
       <description>1 - CONFIGURANDO SERVIDOR NA NUVEM Para a segunda entrega do Projeto Interdisciplinar, deveríamos configurar um servidor na nuvem para fazermos o upload do blog e torná-lo acessível pela internet.
 Decidimos utilizar a plataforma EC2 da Amazon Web Services onde podemos alugar computadores virtuais para rodarmos a nossa aplicação.
  2 - CRIANDO E CONFIGURANDO INSTÂNCIA DO SERVIDOR Através da plataforma do EC2 conseguimos criar uma instância de servidor. Para o sistema operacional que rodará nele, escolhemos o Ubuntu 18.</description>
@@ -24,10 +24,10 @@ Decidimos utilizar a plataforma EC2 da Amazon Web Services onde podemos alugar c
     
     <item>
       <title>Desenvolvimento do Projeto</title>
-      <link>http://18.228.43.70/blog/blog-entry/</link>
+      <link>http://www.devlog.host/blog/blog-entry/</link>
       <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://18.228.43.70/blog/blog-entry/</guid>
+      <guid>http://www.devlog.host/blog/blog-entry/</guid>
       <description>1 - INSTALAÇÃO DA FERRAMENTA E ESTRUTURA BASE DO PROJETO Primeiro, instalamos a ferramenta de desenvolvimento que iríamos usar, um static generator chamado Hugo. Seguindo a documentação, conseguimos montar uma base e inicializar o projeto sem muitos problemas. É uma ferramenta relativamente simples e de fácil manuseio.
 Junto com a instalação da ferramenta, adicionamos também ao projeto um tema pronto chamado Ananke que será o layout base do website. A adição de temas prontos agiliza a construção dos sites e permite uma personalização básica do projeto por parte dos desenvolvedores.</description>
     </item>
