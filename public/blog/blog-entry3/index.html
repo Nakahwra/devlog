@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Devlog  | Registrando um domínio e configurando registro MX</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.67.0" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.1cb140d8ba31d5b2f1114537dd04802a.css" rel="stylesheet">
+    
+
+    
+      <link rel="stylesheet" href="/css/css.css">
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Registrando um domínio e configurando registro MX" />
+<meta property="og:description" content="Postagem relacionada com o registro do domínio" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.devlog.host/blog/blog-entry3/" />
+<meta property="article:published_time" content="2020-05-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-05-26T00:00:00+00:00" />
+<meta itemprop="name" content="Registrando um domínio e configurando registro MX">
+<meta itemprop="description" content="Postagem relacionada com o registro do domínio">
+<meta itemprop="datePublished" content="2020-05-26T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-05-26T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="584">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Registrando um domínio e configurando registro MX"/>
+<meta name="twitter:description" content="Postagem relacionada com o registro do domínio"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('http://www.devlog.host/images/dns.jpg');">
+    <div class="pb3-m pb6-l bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://www.devlog.host/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Devlog
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/blog/" title="Blog page">
+              Blog
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/projetos_pessoais/" title="Projetos Pessoais page">
+              Projetos Pessoais
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="Quem somos page">
+              Quem somos
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/tech_stack/" title="Tech Stack page">
+              Tech Stack
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Registrando um domínio e configurando registro MX</h1>
+          
+            <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Postagem relacionada com o registro do domínio
+            </h2>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+      </aside>
+      <h1 class="f1 athelas mt3 mb1">Registrando um domínio e configurando registro MX</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-05-26T00:00:00Z">May 26, 2020</time>
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><hr>
+<h4 id="1---comprando-um-nome-de-domínio-fqdn-configurando-registros-dns-e-apontando-para-o-servidor">1 - COMPRANDO UM NOME DE DOMÍNIO FQDN, CONFIGURANDO REGISTROS DNS E APONTANDO PARA O SERVIDOR</h4>
+<p>Para a terceira entrega do Projeto Interdisciplinar, decidimos escolher como plataforma para o registro do nosso host de domínio FQDN (em inglês, Fully Qualified Domain Name, ou em Português, Nome de Domínio Completamente Qualificado) a <a href="https://www.hostinger.com.br/">Hostinger</a>. Após a escolha, efetuamos a compra deste domínio: <a href="http://www.devlog.host/">devlog.host</a>.</p>
+<p>Em seguida, para a configuração dos registros de DNS (em inglês, Domain Name System, ou em português, Sistema de Nomes de Domínio) utilizamos o recurso chamado de <a href="https://aws.amazon.com/pt/route53/">Route 53</a> da AWS (host de hospedagem do nosso blog/portfólio). Passos para a configuração:</p>
+<ul>
+<li>Acessando o recuso do Route 53, iremos criar uma nova zona hospeada.</li>
+</ul>
+<p><img src="/images/dns1.jpg" alt=""></p>
+<p><img src="/images/dns2.jpg" alt=""></p>
+<ul>
+<li>Nos campos de criação, informamos o nome de domínio em que havíamos adquirido.</li>
+</ul>
+<p><img src="/images/dns3.jpg" alt=""></p>
+<ul>
+<li>Depois da criação, foram gerados automaticamente pelo Route 53 os NS (Nameservers) e o SOA (Service-oriented architecture).</li>
+</ul>
+<p><img src="/images/dns4.png" alt=""></p>
+<ul>
+<li>Em seguida, criamos 3 conjuntos de registros: *.delog.host, <a href="http://www.delog.host">www.delog.host</a> e (espaço em branco)devlog.host e apontamos os mesmos para o IP do nosso servidor, para que o nosso domínio pudesse ser acessível através de &ldquo;qualquercoisa&rdquo;.devlog.host, <a href="http://www.devlog.host">www.devlog.host</a> e também apenas devlog.host (sem nada antes do domínio).</li>
+</ul>
+<p><img src="/images/dns5.jpg" alt=""></p>
+<p><img src="/images/dns6.jpg" alt=""></p>
+<p><img src="/images/dns7.jpg" alt=""></p>
+<p>Ademais, no apontamento para o servidor navegamos até o gerenciamento do nosso domínio no site da Hostinger e substituímos os NS (Nameservers) que apontavam para os servidores da plataforma pelos nossos gerados pelo recurso do Route 53 como citado anteriormente. Com isso, o nosso blog já estava acessível pelo domínio que havíamos adquirido.</p>
+<p><img src="/images/dns8.png" alt=""></p>
+<hr>
+<h4 id="2---configurando-registro-mx-mail-exchanger">2 - CONFIGURANDO REGISTRO MX (MAIL EXCHANGER)</h4>
+<p>Primeiramente, criamos uma conta no <a href="https://www.zoho.com/pt-br/mail/">Zoho Mail</a> para que pudéssemos possuir um e-mail com domínio próprio. Prontamente, seguimos as etapas necessárias descritas no site para configurar o nosso e-mail e ligá-lo ao domínio através do registro MX:</p>
+<ul>
+<li>Primeiro, verificamos a propriedade do nosso domínio através da criação de um registro CNAME.</li>
+</ul>
+<p><img src="/images/mx1.jpeg" alt=""></p>
+<ul>
+<li>Em seguida, fizemos a configuração do registro MX no Route 53, fazendo com que as entradas de recepção de e-mails no DNS apontem para os registros MX do Zoho Mail.</li>
+</ul>
+<p><img src="/images/mx2.jpg" alt=""></p>
+<ul>
+<li>Configuramos o SPF (Sender Policy Framework) através da criação de um registro TXT com os valores específicados na imagem abaixo para conceder permissão de enviar e-mails usando o nosso nome de domínio.</li>
+</ul>
+<p><img src="/images/mx3.jpg" alt=""></p>
+<ul>
+<li>Também configuramos o DKIM (DomainKeys Identified Mail) com a criação de outro registro TXT para um melhor recebimento e envio de e-mails, pois ele utiliza criptografia para validar se um e-mail é seguro ou não.</li>
+</ul>
+<p><img src="/images/mx4.jpeg" alt=""></p>
+<p>Desta forma, o registro MX está configurado e o nosso receptor de e-mails está apontando para os servidores do Zoho Mail. Assim, podemos enviar e receber e-mails com o e-mail criado (<a href="mailto:webmaster@devlog.host">webmaster@devlog.host</a>) através da plataforma.</p>
+<p><img src="/images/mx5.jpg" alt=""></p>
+<p>Afinal, fizemos o encaminhamento dos e-mails recebidos através da plataforma para um e-mail pessoal do <a href="https://gmail.com/">Gmail</a>:</p>
+<ul>
+<li>Acessamos o nosso e-mail pessoal e fomos até as configurações.</li>
+</ul>
+<p><img src="/images/gmail1.jpg" alt=""></p>
+<ul>
+<li>Nas configurações, entramos na aba de &ldquo;Contas e importação&rdquo;.</li>
+</ul>
+<p><img src="/images/gmail2.jpg" alt=""></p>
+<ul>
+<li>Escolhemos na parte de &ldquo;Enviar e-mail como:&rdquo; a opção de &ldquo;Adicionar outro endereço de e-mail&rdquo;.</li>
+</ul>
+<p><img src="/images/gmail3.jpg" alt=""></p>
+<ul>
+<li>Em seguida, informamos um nome desejado para o nosso e-mail que será adicionado na conta pessoal e o endereço de e-mail que havíamos criado no Zoho Mail.</li>
+</ul>
+<p><img src="/images/gmail4.jpg" alt=""></p>
+<ul>
+<li>Para podermos enviar e receber e-mails, configuramos o servidor STMP de acordo com os dados do Zoho Mail, além de informamos o nome de usuário (e-mail) e a senha.</li>
+</ul>
+<p><img src="/images/smtp.jpg" alt=""></p>
+<p><img src="/images/gmail5.jpg" alt=""></p>
+<ul>
+<li>Também informamos o código de confirmação enviado ao nosso e-mail da plaforma do Zoho.</li>
+</ul>
+<p><img src="/images/gmail6.jpg" alt=""></p>
+<p>Por fim, depois de todos os passos podemos receber os e-mails que são direcionados a <a href="mailto:webmaster@devlog.host">webmaster@devlog.host</a> através de um e-mail pessoal, conseguindo também enviar e responder os e-mails encaminhados por meio do mesmo.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "devlog-unifil" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://www.devlog.host/" >
+    &copy;  Devlog 2020 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

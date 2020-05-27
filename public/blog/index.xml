@@ -6,10 +6,20 @@
     <description>Recent content in Blog on Devlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.devlog.host/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Registrando um domínio e configurando registro MX</title>
+      <link>http://www.devlog.host/blog/blog-entry3/</link>
+      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.devlog.host/blog/blog-entry3/</guid>
+      <description>1 - COMPRANDO UM NOME DE DOMÍNIO FQDN, CONFIGURANDO REGISTROS DNS E APONTANDO PARA O SERVIDOR Para a terceira entrega do Projeto Interdisciplinar, decidimos escolher como plataforma para o registro do nosso host de domínio FQDN (em inglês, Fully Qualified Domain Name, ou em Português, Nome de Domínio Completamente Qualificado) a Hostinger. Após a escolha, efetuamos a compra deste domínio: devlog.host.
+Em seguida, para a configuração dos registros de DNS (em inglês, Domain Name System, ou em português, Sistema de Nomes de Domínio) utilizamos o recurso chamado de Route 53 da AWS (host de hospedagem do nosso blog/portfólio).</description>
+    </item>
     
     <item>
       <title>Criando um servidor na nuvem</title>

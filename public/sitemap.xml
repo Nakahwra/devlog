@@ -4,20 +4,41 @@
   
   <url>
     <loc>http://www.devlog.host/blog/</loc>
-    <lastmod>2020-04-26T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.devlog.host/blog/blog-entry2/</loc>
-    <lastmod>2020-04-26T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-26T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://www.devlog.host/</loc>
+    <lastmod>2020-05-26T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.devlog.host/projetos_pessoais/pp_doe/</loc>
+    <lastmod>2020-05-26T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.devlog.host/projetos_pessoais/</loc>
+    <lastmod>2020-05-26T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.devlog.host/blog/blog-entry3/</loc>
+    <lastmod>2020-05-26T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.devlog.host/blog/blog-entry2/</loc>
     <lastmod>2020-04-26T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -46,12 +67,6 @@
   
   <url>
     <loc>http://www.devlog.host/categories/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.devlog.host/projetos_pessoais/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

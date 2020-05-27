@@ -21,4 +21,3 @@ disqusShortname = "devlog-unifil"
   background_color_class = "bg-black"
   recent_posts_number = 4
   filename = "sitemap.xml"
-  commentoEnable = true
