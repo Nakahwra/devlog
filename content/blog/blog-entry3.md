@@ -92,3 +92,5 @@ Afinal, fizemos o encaminhamento dos e-mails recebidos através da plataforma pa
 ![](/images/gmail6.jpg)
 
 Por fim, depois de todos os passos podemos receber os e-mails que são direcionados a webmaster@devlog.host através de um e-mail pessoal, conseguindo também enviar e responder os e-mails encaminhados por meio do mesmo.
+
+---

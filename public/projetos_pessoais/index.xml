@@ -6,10 +6,22 @@
     <description>Recent content in Projetos Pessoais on Devlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 26 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.devlog.host/projetos_pessoais/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Be The Hero</title>
+      <link>http://www.devlog.host/projetos_pessoais/pp_bethehero/</link>
+      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.devlog.host/projetos_pessoais/pp_bethehero/</guid>
+      <description>O Projeto O Be The Hero foi um projeto no qual desenvolvi durante a semana OmniStack 11, um curso online gratuito oferecido pela Rocketseat.
+Acesse a minha versão da aplicação neste link para o repositório do Github.
+ Objetivo O BeTheHero é um projeto que visa conectar pessoas que desejam fazer contribuições monetárias a ONG&amp;rsquo;s (Organizações não governamentais) que precisam de ajuda.
+ Tecnologias Esse projeto foi desenvolvido com as seguintes tecnologias:</description>
+    </item>
     
     <item>
       <title>Projeto Doe</title>

@@ -6,10 +6,21 @@
     <description>Recent content in Blog on Devlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 26 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.devlog.host/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Disqus e Projetos Pessoais</title>
+      <link>http://www.devlog.host/blog/blog-entry4/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.devlog.host/blog/blog-entry4/</guid>
+      <description>Aqui descrevemos como integramos o Disqus para adicionar a funcionalidade de comentários em nosso site, a construção da página de projetos pessoais e como habilitamos o botão/ícone para o nosso repositório do GitHub em todas as páginas.
+Disqus Integrando domínio com Disqus e configurando Para podermos usar o Disqus como comentários em nosso blog, nós devemos integrar a plataforma com o nosso domínio.
+Primeiro, criaremos uma nova instância do site na plataforma do Disqus.</description>
+    </item>
     
     <item>
       <title>Registrando um domínio e configurando registro MX</title>

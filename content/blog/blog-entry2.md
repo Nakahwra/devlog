@@ -100,3 +100,6 @@ Feito todas essas configurações, já será possível acessar o servidor pela i
 ![](/images/servidor.png)
 
 Simplesmente acessamos o diretório, removemos o arquivo da página padrão do Apache mostrada acima e inserimos o nosso projeto buildado no diretório através de um clone do repositório do GitHub. Por fim, o nosso projeto está no ar e acessível pelo IP público da instância.
+
+
+---

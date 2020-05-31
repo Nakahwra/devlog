@@ -21,3 +21,14 @@ title: "Tech Stack"
 
 - Host AWS EC2 com sistema operacional Ubuntu 18.04;
 - Apache 2.
+
+---
+### TECNOLOGIAS UTILIZADAS PARA O REGISTRO DE DOMÍNIO E APONTANMENTO PARA O SERVIDOR
+
+- Host de domínio: Hostinger;
+- Route 53 da AWS;
+- Zoho Mail;
+- Gmail;
+- Disqus.
+
+---

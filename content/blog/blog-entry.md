@@ -49,3 +49,5 @@ Portanto:
 #### 4 - ALIMENTANDO O SITE COM CONTEÚDO
 
 Por fim, com o site totalmente personalizado, fizemos a postagem do blog entry (esta postagem) e a do Tech Stack. Além disso, nós criamos alguns posts genéricos em cada uma das seções apenas para o site não ficar vazio, já que nós mesmos não tínhamos conteúdo relevante para preenchê-lo no momento.
+
+---

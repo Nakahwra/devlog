@@ -6,10 +6,33 @@
     <description>Recent content on Devlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 26 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.devlog.host/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Disqus e Projetos Pessoais</title>
+      <link>http://www.devlog.host/blog/blog-entry4/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.devlog.host/blog/blog-entry4/</guid>
+      <description>Aqui descrevemos como integramos o Disqus para adicionar a funcionalidade de comentários em nosso site, a construção da página de projetos pessoais e como habilitamos o botão/ícone para o nosso repositório do GitHub em todas as páginas.
+Disqus Integrando domínio com Disqus e configurando Para podermos usar o Disqus como comentários em nosso blog, nós devemos integrar a plataforma com o nosso domínio.
+Primeiro, criaremos uma nova instância do site na plataforma do Disqus.</description>
+    </item>
+    
+    <item>
+      <title>Be The Hero</title>
+      <link>http://www.devlog.host/projetos_pessoais/pp_bethehero/</link>
+      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.devlog.host/projetos_pessoais/pp_bethehero/</guid>
+      <description>O Projeto O Be The Hero foi um projeto no qual desenvolvi durante a semana OmniStack 11, um curso online gratuito oferecido pela Rocketseat.
+Acesse a minha versão da aplicação neste link para o repositório do Github.
+ Objetivo O BeTheHero é um projeto que visa conectar pessoas que desejam fazer contribuições monetárias a ONG&amp;rsquo;s (Organizações não governamentais) que precisam de ajuda.
+ Tecnologias Esse projeto foi desenvolvido com as seguintes tecnologias:</description>
+    </item>
     
     <item>
       <title>Projeto Doe</title>
@@ -49,7 +72,7 @@ Decidimos utilizar a plataforma EC2 da Amazon Web Services onde podemos alugar c
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>http://www.devlog.host/tech_stack/tech_stack/</guid>
-      <description> TECNOLOGIAS UTILIZADAS PARA A CRIAÇÃO DO PORTFÓLIO/BLOG Frontend:  HTML/CSS; Markdown; JavaScript.  Backend:  GoLang (Hugo Static Generator).   TECNOLOGIAS UTILIZADAS PARA A CONFIGURAÇÃO DO SERVIDOR NA NUVEM  Host AWS EC2 com sistema operacional Ubuntu 18.04; Apache 2.  </description>
+      <description> TECNOLOGIAS UTILIZADAS PARA A CRIAÇÃO DO PORTFÓLIO/BLOG Frontend:  HTML/CSS; Markdown; JavaScript.  Backend:  GoLang (Hugo Static Generator).   TECNOLOGIAS UTILIZADAS PARA A CONFIGURAÇÃO DO SERVIDOR NA NUVEM  Host AWS EC2 com sistema operacional Ubuntu 18.04; Apache 2.   TECNOLOGIAS UTILIZADAS PARA O REGISTRO DE DOMÍNIO E APONTANMENTO PARA O SERVIDOR  Host de domínio: Hostinger; Route 53 da AWS; Zoho Mail; Gmail; Disqus.   </description>
     </item>
     
     <item>

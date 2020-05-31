@@ -1,5 +1,5 @@
 ---
 title: "Blog"
-featured_image: '/images/projetos-pessoais.jpg'
+featured_image: '/images/blog.jpg'
 description: ""
 ---
